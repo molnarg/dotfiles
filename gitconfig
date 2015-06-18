@@ -1,0 +1,5 @@
+[user]
+	name = Gábor Molnár
+	email = gabor@molnar.es
+[push]
+	default = simple
