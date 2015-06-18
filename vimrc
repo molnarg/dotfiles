@@ -17,7 +17,8 @@ filetype plugin indent on    " required
 " Powerline
 set encoding=utf-8
 set laststatus=2
-source /usr/local/lib/python2.7/site-packages/powerline/bindings/vim/plugin/powerline.vim
+let powerline_dir = system('python -c "import powerline, sys; sys.stdout.write(powerline.__path__[0])"')
+execute 'source' fnameescape(powerline_dir . "/bindings/vim/plugin/powerline.vim")
 
 " Solarized color theme
 syntax enable
