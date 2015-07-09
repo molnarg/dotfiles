@@ -11,6 +11,7 @@ Bundle 'altercation/vim-colors-solarized'
 Bundle 'davidhalter/jedi-vim'
 Bundle 'scrooloose/nerdtree'
 Plugin 'airblade/vim-gitgutter'
+Plugin 'valloric/YouCompleteMe'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
