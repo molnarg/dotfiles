@@ -41,6 +41,7 @@ set expandtab
 set shiftwidth=4
 set softtabstop=4
 set backspace=
+autocmd FileType cpp,c,cxx,h,hpp,python,sh setlocal colorcolumn=80
 
 " Python mode
 let g:pymode_rope = 0
