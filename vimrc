@@ -40,7 +40,7 @@ set incsearch
 set expandtab
 set shiftwidth=4
 set softtabstop=4
-set backspace=
+set backspace=indent,eol
 autocmd FileType cpp,c,cxx,h,hpp,python,sh setlocal colorcolumn=80
 
 " Python mode
