@@ -42,9 +42,6 @@ set backspace=indent,eol
 autocmd FileType cpp,c,cxx,h,hpp,python,sh,txt,md,markdown setlocal colorcolumn=80
 autocmd FileType txt,md,markdown setlocal textwidth=80
 
-" Python mode
-let g:pymode_rope = 0
-
 " System clipboard integration
 set clipboard=unnamed
 
