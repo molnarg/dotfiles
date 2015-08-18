@@ -6,9 +6,7 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 Plugin 'christoomey/vim-tmux-navigator'
-Bundle 'klen/python-mode'
 Bundle 'altercation/vim-colors-solarized'
-Bundle 'davidhalter/jedi-vim'
 Bundle 'scrooloose/nerdtree'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'valloric/YouCompleteMe'
