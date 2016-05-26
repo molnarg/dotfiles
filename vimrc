@@ -32,6 +32,10 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
+" Better tab switching
+nnoremap H gT
+nnoremap L gt
+
 " Other
 set hlsearch
 set incsearch
